@@ -1,0 +1,22 @@
+sample,analyte,method,result,unit,flag,notes
+G,pH,potentiometry,7,,APPROX,approximate reading
+G,conductivity,conductimetry,390,uS/cm,,390 +/- 3 uS/cm
+G,TA,acid-base titration,0,mg/L CaCO3,,pH<8.2 no colour change with phenolphthalein
+G,TAC,acid-base titration,40,mg/L CaCO3,,Veq=0.4mL HCl 0.1mol/L 50mL sample
+G,TH,EDTA titration,144,mg/L CaCO3,,Veq=0.9mL EDTA 0.08mol/L 50mL sample excellent reproducibility
+G,THCa,EDTA titration,32,mg/L CaCO3,,Veq=0.2mL Essai 1 excluded outlier
+G,Ca2+,derived,12.8,mg/L,,Calculated from THCa: 32 x (40.1/100.1)
+G,Mg2+,derived,27.2,mg/L,,Calculated from TH-THCa: 112 x (24.3/100.1)
+G,fluoride,IC,18.9,mg/L,,R2=0.999 calibration 10-100 mg/L
+G,fluoride,ISE,22.1,mg/L,,slope -57.5 mV/dec near-Nernstian
+G,chloride,IC,47.5,mg/L,,average of 50.0 direct and 45.0 diluted x2
+G,chloride,AgNO3 potentiometry,72.7,mg/L,HIGH_DISC,53% discrepancy vs IC
+G,nitrate,IC,5.0,mg/L,APPROX,high blank 4mg/L 27% dilution discrepancy
+G,nitrate,ISE,91.5,mg/L,NON_NERNSTIAN,slope -22.9 mV/dec vs theoretical -59.2
+G,sulfate,IC,149.0,mg/L,,diluted x2 used undiluted exceeded calibration range
+G,sulfate,conductimetric,146.0,mg/L,,Veq=7.6mL BaCl2 0.01mol/L 2% difference excellent
+G,bromide,IC,BDL,mg/L,BDL,no peak observed
+G,sodium,flame photometry,32.0,mg/L,,calculated from calibration signal=37486x+1.6
+G,potassium,flame photometry,39.0,mg/L,,calculated from calibration signal=112x+1.27
+G,copper,AAS,BDL,mg/L,BDL,below detection across all dilutions
+G,zinc,AAS,85.0,mg/L,,standard addition method matrix corrected
