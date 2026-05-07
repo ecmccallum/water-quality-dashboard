@@ -50,7 +50,7 @@ Generates a dated PDF compliance report on demand: sample ID, analytical conditi
  
 ## Ionic balance analysis
  
-Water is electrically neutralthe:  total charge from all cations must equal the total charge from all anions. The dashboard calculates this automatically for every sample, converting all concentrations to milliequivalents per litre (meq/L) and computing the ionic balance error (IBE):
+Water is electrically neutral: the total charge from all cations must equal the total charge from all anions. The dashboard calculates this automatically for every sample, converting all concentrations to milliequivalents per litre (meq/L) and computing the ionic balance error (IBE):
  
 ```
 IBE (%) = (sum cations - sum anions) / (sum cations + sum anions) x 100
@@ -155,12 +155,12 @@ water-quality-dashboard/
 ---
 
 ## Build milestones
- 
+
 | Step | Description | Status |
 |---|---|---|
-| 1 | Repository scaffold, requirements.txt, folder structure | ⬜ Not started |
-| 2 | Data files: sample_results.csv and all three limits CSVs | ⬜ Not started |
-| 3 | data_loader.py — ingest, validate, BDL handling, derive Ca/Mg from hardness | ⬜ Not started |
+| 1 | Repository scaffold, requirements.txt, folder structure | ✅ Complete |
+| 2 | Data files: sample_results.csv and all three limits CSVs | ✅ Complete |
+| 3 | data_loader.py — ingest, validate, BDL handling, derive Ca/Mg from hardness | ⬜ Next |
 | 4 | pytest tests for data_loader.py | ⬜ Not started |
 | 5 | compliance_checker.py — full compliance matrix with method priority | ⬜ Not started |
 | 6 | qc_engine.py — all flags including HIGH_IBE | ⬜ Not started |
@@ -171,14 +171,14 @@ water-quality-dashboard/
 | 11 | report_generator.py — PDF output from button click | ⬜ Not started |
 | 12 | README final polish, methodology section, screenshot | ⬜ Not started |
 | 13 | Deployment to Render — public URL | ⬜ Not started |
-
 ---
 
 ## Status log
 
 | Date | Update |
 |---|---|
-| May 2026 | Project scoped. Full dataset confirmed for Sample G. Ionic balance caluclated. Data collection template distributed to collaborating groups. Repository structure and README complete. Build starting. |
+| May 2026 | Project scoped. Full dataset confirmed for Sample G. Ionic balance calculated: IBE +10.9%. Data collection template distributed to collaborating groups. Repository initialised. |
+| May 2026 | Steps 1 and 2 complete. Folder scaffold built. All four data files created: sample_results.csv, who_limits.csv, eu_dwi_limits.csv, french_limits.csv. Next: data_loader.py. |
 
 ---
 
