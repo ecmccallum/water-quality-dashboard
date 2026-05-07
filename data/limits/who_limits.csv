@@ -1,0 +1,15 @@
+analyte,limit,unit,type,notes
+fluoride,1.5,mg/L,parametric,WHO Guidelines 4th edition 2022
+chloride,250,mg/L,guideline,Aesthetic guideline not health-based
+nitrate,50,mg/L,parametric,
+sulfate,500,mg/L,guideline,Aesthetic guideline not health-based
+sodium,200,mg/L,guideline,
+copper,2,mg/L,parametric,
+zinc,3,mg/L,guideline,
+pH_min,6.5,,parametric,
+pH_max,8.5,,parametric,
+conductivity,,,none,No WHO limit
+bromide,,,none,No WHO limit
+potassium,,,none,No WHO limit
+calcium,,,none,No WHO limit
+magnesium,,,none,No WHO limit

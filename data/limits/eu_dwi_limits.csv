@@ -1,0 +1,15 @@
+analyte,limit,unit,type,notes
+fluoride,1.5,mg/L,parametric,EU Directive 2020/2184
+chloride,250,mg/L,indicator,Indicator parameter not health-based
+nitrate,50,mg/L,parametric,
+sulfate,250,mg/L,indicator,Stricter than WHO 500 mg/L guideline
+sodium,200,mg/L,indicator,
+copper,2,mg/L,parametric,
+zinc,,,none,No parametric value in EU DWD 2020
+pH_min,6.5,,parametric,
+pH_max,9.5,,parametric,Wider range than WHO
+conductivity,2500,uS/cm,indicator,
+bromide,,,none,No EU limit
+potassium,,,none,No EU limit
+calcium,,,none,No EU limit
+magnesium,,,none,No EU limit

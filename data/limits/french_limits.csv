@@ -1,0 +1,15 @@
+analyte,limit,unit,type,notes
+fluoride,1.5,mg/L,parametric,Arrete du 11 janvier 2007
+chloride,250,mg/L,indicator,
+nitrate,50,mg/L,parametric,
+sulfate,250,mg/L,indicator,Same as EU stricter than WHO
+sodium,200,mg/L,indicator,
+copper,1,mg/L,parametric,Stricter than WHO and EU — 1 not 2
+zinc,5,mg/L,indicator,French limit exists unlike EU DWD
+pH_min,6.5,,parametric,
+pH_max,9.0,,parametric,
+conductivity,,,none,No specific French limit
+bromide,,,none,No French limit
+potassium,,,none,No French limit
+calcium,,,none,No French limit
+magnesium,,,none,No French limit
